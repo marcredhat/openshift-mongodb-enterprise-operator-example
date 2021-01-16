@@ -5,7 +5,7 @@ metadata:
   name: hello-app
 spec:
   selector:
-    deployment=hello-app
+    deployment: hello-app
   ports:
     - protocol: TCP
       port: 80
